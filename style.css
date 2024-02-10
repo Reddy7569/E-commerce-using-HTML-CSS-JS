@@ -551,7 +551,7 @@
 }
 
 /* media Screens */
-@media(min-width:992px) and (max-width:1200px){
+@media(min-width:768px) and (max-width:1200px){
     .section_m2 {
         margin: 10px 0;
     }
@@ -635,6 +635,11 @@
     #closed{
         display:block;
     }
+    #hero{
+        height: 70vh;  
+        padding: 0px 20px;
+        background-position: top 30% right 70%;
+      }
     #nav {
         display: flex;
         flex-direction: column;
